@@ -1,0 +1,41 @@
+.section {
+    display: block;
+    padding: 10px;
+
+}
+
+.images ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+li{
+    text-align: center;
+    width: 23%;
+    padding: 15px 0;
+}
+img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 992px){
+    li{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    li{
+        width: 45%;
+    }
+
+}
+@media screen and (max-width: 576px){
+    li{
+        width: 45%;
+    }
+
+}
