@@ -19,13 +19,13 @@
             btnMix.addEventListener('click', mixPic);
 
             function mixPic() {
-                images.src = 'http://localhost:63342/HTMl-layout/JS/DOM/uzduotis/IMG/download(' + Math.floor((Math.random() * li.length) + 1) + ').jfif';
+                images.src = 'IMG/download(' + Math.floor((Math.random() * li.length) + 1) + ').jfif';
             }
 
             images.addEventListener('click', changePic)
 
             function changePic() {
-                images.src = 'http://localhost:63342/HTMl-layout/JS/DOM/uzduotis/IMG/download(7).jfif';
+                images.src = 'IMG/download(7).jfif';
             }
 
         }
